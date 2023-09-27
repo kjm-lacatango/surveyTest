@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: arial;
+}
+.main-cont {
+    border-top: 3px solid rgb(1, 1, 190);
+    margin: 30px;
+    background: white;
+    box-shadow: 1px 2px 4px #0003;
+    padding: 10px 20px;
+    min-width: 60%;
+}
+.ques {
+    padding: 0;
+    margin: 0 0 8px 0;
+    font-size: 16px;
+}
+.ans-cont {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+.ans-cont button{
+    background: white;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+.ans-cont button:hover {
+    background: rgb(5, 102, 5);
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(5, 102, 5);
+}
+.submit {
+    background:rgb(20, 18, 121);
+    color: white;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+    box-shadow: 1px 2px 4px #0003;
+}
+.submit:hover {
+    color:rgb(20, 18, 121);
+    background: white;
+    border: 1px solid rgb(20, 18, 121);
+    cursor: pointer;
+}
