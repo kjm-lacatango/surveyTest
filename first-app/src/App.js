@@ -19,7 +19,6 @@ function App() {
     }
   }
   const handleSubmit = () => {
-   // console.log(`Q1: ${q1} Q2: ${q2} Q3: ${q3}`)
     Axios.post('http://localhost:5001/api/add', {
       q1, q2, q3
     }).then((res) => console.log(res.data))
